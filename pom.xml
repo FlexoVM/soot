@@ -9,32 +9,32 @@
     <version>7</version>
   </parent>
 
-  <groupId>org.robovm</groupId>
+  <groupId>org.flexovm</groupId>
   <version>2.5.0-2-SNAPSHOT</version>
-  <artifactId>robovm-soot</artifactId>
+  <artifactId>flexovm-soot</artifactId>
   <name>Soot</name>
   <packaging>jar</packaging>
-  <url>http://www.robovm.com</url>
+  <url>http://www.flexovm.org</url>
   <description>
-    RoboVM fork of Soot - A Java optimization framework
+    FlexoVM fork of Soot - A Java optimization framework
   </description>
   <inceptionYear>2012</inceptionYear>
 
   <organization>
-    <name>RoboVM AB</name>
-    <url>http://www.robovm.com</url>
+    <name>FlexoVM</name>
+    <url>http://www.flexovm.org</url>
   </organization>
 
   <scm>
-    <url>https://github.com/robovm/soot</url>
-    <connection>scm:git:git://github.com/robovm/soot.git</connection>
-    <developerConnection>scm:git:git@github.com:robovm/soot.git</developerConnection>
+    <url>https://github.com/flexovm/soot</url>
+    <connection>scm:git:git://github.com/flexovm/soot.git</connection>
+    <developerConnection>scm:git:git@github.com:flexovm/soot.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/robovm/soot/issues</url>
+    <url>https://github.com/flexovm/soot/issues</url>
   </issueManagement>
 
   <dependencies>
@@ -86,7 +86,7 @@
             <goals><goal>add-test-source</goal></goals>
             <configuration>
               <sources>
-                <source>tests/robovm</source>
+                <source>tests/flexovm</source>
               </sources>
             </configuration>
           </execution>
